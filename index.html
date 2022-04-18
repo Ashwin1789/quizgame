@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./code/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+            color:rgb(255, 255, 255);
+        }
+        #quizprogram{
+            text-align: center;
+            color:rgb(248, 211, 0);
+        }
+        .question{
+            margin-left: 20px;
+        }
+        hr{
+            margin-right: 1400px;
+        }
+        body{
+            background-color: rgb(241, 106, 169);
+        }
+    </style>
+</head>
+<body>
+    <script src="./code/js/bootstrap.min.js"></script>
+    <script src="./code/js/jquery.min.js"></script>
+    <div id="gototop"></div>
+    <h1 id="quizprogram">QUIZ COMPETITION</h1><br><br>
+
+    <!--***********************************************************************************************************************************-->
+
+    <!--first question-->
+    <div class="question">
+    <h5>1. what is the shortcut key for copy __________ ?</h5>
+</div>
+<br>
+<button>
+<div style="margin-left:35px;">
+    <h3 class="w1" onclick="question1(),question1_1()" style="margin-right:1700px;">  > ctrl+s</h3>
+    <h3 class="w_1" onclick="question_1(),question1_1()" style="margin-right:1700px;">  > ctrl+v</h3>
+    <h3 class="r1" onclick="question1_1()" style="margin-right:1700px;">  > ctrl+c</h3>
+    <br>
+</div>
+</button>
+<!--first question script-->
+<script>
+    function question1() {
+        var x1,i1;
+      x1=document.querySelectorAll(".w1");
+      for(i1=0;i1<x1.length;i1++){
+        x1[i1].style.backgroundColor = "rgb(255,64,36)";        
+      }
+    }
+</script>
+<script>
+    function question_1() {
+        var x1,i1;
+      x1=document.querySelectorAll(".w_1");
+      for(i1=0;i1<x1.length;i1++){
+        x1[i1].style.backgroundColor = "rgb(255,64,36)";        
+      }
+    }
+</script>
+<script>
+    function question1_1(){
+        document.querySelector(".r1").style.backgroundColor="rgb(167,255,129)";
+    }
+</script>
+
+<!--***********************************************************************************************************************************-->
+<br><hr><br>
+<!--***********************************************************************************************************************************-->
+<!--second question-->
+<div class="question">
+    <h5>2. what is the shortcut key for save _________ ?</h5>
+</div>
+<br>
+<button>
+<div style="margin-left:35px;">
+    <h3 class="r2" onclick="question2_2()" style="margin-right:1700px;">  > ctrl+s</h3>
+    <h3 class="w2" onclick="question2(),question2_2()" style="margin-right:1700px;">  > ctrl+v</h3>
+    <h3 class="w_2" onclick="question_2(),question2_2()" style="margin-right:1700px;">  > ctrl+c</h3>
+    <br>
+</div>
+</button>
+<!--second question script-->
+<script>
+    function question2(){
+        var x2,i2;
+        x2=document.querySelectorAll(".w2");
+        for(i2=0;i2<x2.length;i2++){
+            x2[i2].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question_2(){
+        var x2,i2;
+        x2=document.querySelectorAll(".w_2");
+        for(i2=0;i2<x2.length;i2++){
+            x2[i2].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question2_2(){
+        document.querySelector(".r2").style.backgroundColor="rgb(167,255,129)";
+    }
+</script>
+
+<!--***********************************************************************************************************************************-->
+<br><hr><br>
+<!--***********************************************************************************************************************************-->
+
+<!--third question-->
+<div class="question">
+    <h5>3. who is the father of C program __________ ?</h5>
+</div>
+<br>
+<button>
+<div style="margin-left:30px;">
+    <h3 class="w_3" onclick="question_3(),question3_3()" style="margin-right:1600px;"> >Elon Musk</h3>
+    <h3 class="r3" onclick="question3_3()" style="margin-right:1600px;">  >Denis Ritchi</h3>
+    <h3 class="w3" onclick="question3(),question3_3()" style="margin-right:1600px;"> >Bill Guades</h3>
+    <br>
+</div>
+</button>
+<!--third question script-->
+<script>
+    function question_3(){
+        var x3,i3;
+        x3=document.querySelectorAll(".w_3");
+        for(i3=0;i3<x3.length;i3++){
+            x3[i3].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question3(){
+        var x3,i3;
+        x3=document.querySelectorAll(".w3");
+        for(i3=0;i3<x3.length;i3++){
+            x3[i3].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question3_3(){
+        document.querySelector(".r3").style.backgroundColor="rgb(167,255,129)";
+    }
+</script>
+
+<!--***********************************************************************************************************************************-->
+<br><hr><br>
+<!--***********************************************************************************************************************************-->
+
+<!--fourth question-->
+<div class="question">
+    <h5>4. who is the developer of Java programming _________ ?</h5>
+</div>
+<br>
+<button>
+<div style="margin-left:30px;">
+    <h3 class="w_4" onclick="question_4(),question4_4()" style="margin-right:1650px;">> Ibm</h3>
+    <h3 class="r4" onclick="question4_4()" style="margin-right:1600px;"> > Oracle</h3>
+    <h3 class="w4" onclick="question4(),question4_4()" style="margin-right:1550px;"> > Accenture</h3>
+    <br>
+</div>
+</button>
+<!--fourth question script-->
+<script>
+    function question_4(){
+        var x4,i4;
+        x4=document.querySelectorAll(".w_4");
+        for(i4=0;i4<x4.length;i4++){
+            x4[i4].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question4(){
+        var x4,i4;
+        x4=document.querySelectorAll(".w4");
+        for(i4=0;i4<x4.length;i4++){
+            x4[i4].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question4_4(){
+        document.querySelector(".r4").style.backgroundColor="rgb(167,255,129)";
+    }
+</script>
+
+<!--***********************************************************************************************************************************-->
+<br><hr><br>
+<!--***********************************************************************************************************************************-->
+
+<!--fifth question-->
+<div class="question">
+    <h5>5. who is the father of Python Programming _________ ?</h5>
+</div>
+<br>
+<button>
+<div style="margin-left:35px;">
+    <h3 class="r5" onclick="question5_5()" style="margin-right:1500px;">  > Guido Van Rossum</h3>
+    <h3 class="w_5" onclick="question_5(),question5_5()" style="margin-right:1600px;">> Dennis Ritchi</h3>
+    <h3 class="w5" onclick="question5(),question5_5()" style="margin-right:1680px;">  > Robort</h3>
+    <br>
+</div>
+</button>
+<!--fourth question script-->
+<script>
+    function question5(){
+        var x5,i5;
+        x5=document.querySelectorAll(".w5");
+        for(i5=0;i5<x5.length;i5++){
+            x5[i5].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question_5(){
+        var x5,i5;
+        x5=document.querySelectorAll(".w_5");
+        for(i5=0;i5<x5.length;i5++){
+            x5[i5].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question5_5(){
+        document.querySelector(".r5").style.backgroundColor="rgb(167,255,129)";
+    }
+</script>
+
+<!--***********************************************************************************************************************************-->
+<br><hr><br>
+<!--***********************************************************************************************************************************-->
+
+<!--sixth question-->
+<div class="question">
+    <h5>6. who is the father of C++ Programming _________ ?</h5>
+</div>
+<br>
+<button>
+<div style="margin-left:35px;">
+    <h3 class="w_6" onclick="question_6(),question6_6()" style="margin-right:1600px;"> > Robort</h3>
+    <h3 class="r6" onclick="question6_6()" style="margin-right:1500px;"> > Bjarne Stroustrup</h3>
+    <h3 class="w6" onclick="question6(),question6_6()" style="margin-right:1600px;">  > Bill Guades</h3>
+    <br>
+</div>
+</button>
+<!--sixth question script-->
+<script>
+    function question6(){
+        var x6,i6;
+        x6=document.querySelectorAll(".w6");
+        for(i6=0;i6<x6.length;i6++){
+            x6[i6].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question_6(){
+        var x6,i6;
+        x6=document.querySelectorAll(".w_6");
+        for(i6=0;i6<x6.length;i6++){
+            x6[i6].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question6_6(){
+        document.querySelector(".r6").style.backgroundColor="rgb(167,255,129)";
+    }
+</script>
+
+<!--***********************************************************************************************************************************-->
+<br><hr><br>
+<!--***********************************************************************************************************************************-->
+
+<!--seventh question-->
+<div class="question">
+    <h5>7. Java programming language is _________ ?</h5>
+</div>
+<br>
+<button>
+<div style="margin-left:35px;">
+    <h3 class="w_7" onclick="question_7(),question7_7()" style="margin-right:1630px;">> High language</h3>
+    <h3 class="r7" onclick="question7_7()" style="margin-right:1600px;"> > Object Oriented</h3>
+    <h3 class="w7" onclick="question7(),question7_7()" style="margin-right:1580px;">  > Markup Language</h3>
+    <br>
+</div>
+</button>
+<!--seventh question script-->
+<script>
+    function question7(){
+        var x7,i7;
+        x7=document.querySelectorAll(".w7");
+        for(i7=0;i7<x7.length;i7++){
+            x7[i7].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question_7(){
+        var x7,i7;
+        x7=document.querySelectorAll(".w_7");
+        for(i7=0;i7<x7.length;i7++){
+            x7[i7].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question7_7(){
+        document.querySelector(".r7").style.backgroundColor="rgb(167,255,129)";
+    }
+</script>
+    
+<!--***********************************************************************************************************************************-->
+<br><hr><br>
+<!--***********************************************************************************************************************************-->
+
+<!--eighth question-->
+<div class="question">
+    <h5>8. Who is the founder of Kotlin Language _________ ?</h5>
+</div>
+<br>
+<button>
+<div style="margin-left:30px;">
+    <h3 class="r8" onclick="question8_8()" style="margin-right:1650px;">  > Jet Brains</h3>
+    <h3 class="w_8" onclick="question8(),question8_8()" style="margin-right:1700px;"> > Oracle</h3>
+    <h3 class="w8" onclick="question8(),question8_8()" style="margin-right:1600px;"> > Microsoft</h3>
+    <br>
+</div>
+</button>
+<!--eighth question script-->
+<script>
+    function question8(){
+        var x8,i8;
+        x8=document.querySelectorAll(".w8");
+        for(i8=0;i8<x8.length;i8++){
+            x8[i8].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question_8(){
+        var x8,i8;
+        x8=document.querySelectorAll(".w_8");
+        for(i8=0;i8<x8.length;i8++){
+            x8[i8].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question8_8(){
+        document.querySelector(".r8").style.backgroundColor="rgb(167,255,129)";
+    }
+</script>
+
+<!--***********************************************************************************************************************************-->
+<br><hr><br>
+<!--***********************************************************************************************************************************-->
+
+<!--ninth question-->
+<div class="question">
+    <h5>9. Who is the founder of Tesla car _________ ?</h5>
+</div>
+<br>
+<button>
+<div style="margin-left:35px;">
+    <h3 class="w_9" onclick="question_9(),question9_9()" style="margin-right:1600px;">> August Horch</h3>
+    <h3 class="w9" onclick="question9(),question9_9()" style="margin-right:1650px;">> Karl Benz</h3>
+    <h3 class="r9" onclick="question9_9()" style="margin-right:1650px;">  > Elon Musk</h3>
+    <br>
+</div>
+</button>
+<!--ninth question script-->
+<script>
+    function question9(){
+        var x9,i9;
+        x9=document.querySelectorAll(".w9");
+        for(i9=0;i9<x9.length;i9++){
+            x9[i9].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question_9(){
+        var x9,i9;
+        x9=document.querySelectorAll(".w_9");
+        for(i9=0;i9<x9.length;i9++){
+            x9[i9].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question9_9(){
+        document.querySelector(".r9").style.backgroundColor="rgb(167,255,129)";
+    }
+</script>
+
+<!--***********************************************************************************************************************************-->
+<br><hr><br>
+<!--***********************************************************************************************************************************-->
+
+<!--tenth question-->
+<div class="question">
+    <h5>10. Python Language is ________ ?</h5>
+</div>
+<br>
+<button>
+<div style="margin-left:35px;">
+    <h3 class="r10" onclick="question10_10()" style="margin-right:1650px;"> > Interpreted</h3>
+    <h3 class="w_10" onclick="question10(),question10_10()" style="margin-right:1650px;">> markup</h3>
+    <h3 class="w10" onclick="question10(),question10_10()" style="margin-right:1650px;"> > high level</h3>
+    <br>
+</div>
+</button>
+<!--tenth question script-->
+<script>
+    function question10(){
+        var x10,i10;
+        x10=document.querySelectorAll(".w10");
+        for(i10=0;i10<x10.length;i10++){
+            x10[i10].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question_10(){
+        var x10,i10;
+        x10=document.querySelectorAll(".w_10");
+        for(i10=0;i10<x10.length;i10++){
+            x10[i10].style.backgroundColor="rgb(255,64,36)";
+        }
+    }
+</script>
+<script>
+    function question10_10(){
+        document.querySelector(".r10").style.backgroundColor="rgb(167,255,129)";
+    }
+</script>
+
+<!--***********************************************************************************************************************************-->
+<br><hr><br>
+<!--***********************************************************************************************************************************-->
+
+<h2 style="margin-left: 70px; background-color: orange; margin-right: 1670px;"><a href="#gototop">Go to Top</a></h2>
+
+<br><br><br>
+
+</body>
+</html>
